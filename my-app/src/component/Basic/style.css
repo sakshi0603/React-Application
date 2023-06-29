@@ -1,0 +1,42 @@
+body{
+    font-family: 'Urbanist', sans-serif;
+}
+
+.first, .second,.third,.fourth,.fifth{
+    margin:10px;
+}
+
+.field{
+    display: inline-block;
+    padding:0 10px;
+    width: 23%;
+}
+
+.second > .field{
+    width: 18%;
+}
+
+input,select{
+    height: 30px;
+    border-radius: 5px;
+    width:100%;
+    margin:5px 0;
+    background-color: #ffffff ;
+    font-family:'Urbanist';
+    border:1px solid;
+}
+
+button{
+    background: rgb(86, 86, 232);
+    color:white;
+    border: 2px solid whitesmoke;
+    height:37px;
+    width:100px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.btn{
+        display: flex;
+        justify-content: space-evenly;
+    
+}

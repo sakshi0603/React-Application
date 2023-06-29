@@ -1,0 +1,31 @@
+body{
+    font-family: 'Urbanist', sans-serif;
+}
+
+.first,.second,.third,.fourth{
+    margin:10px;
+}
+
+.field{
+    margin: 0 0 5px;
+    display: inline-block;
+    padding: 0 5px;
+    width:18%;
+}
+
+.fourth> .field{
+    width:23%;
+}
+
+input,select{
+    height: 30px;
+    border-radius: 5px;
+    width:100%;
+    margin:5px 0;
+    background-color: #ffffff ;
+    font-family:'Urbanist';
+}
+
+hr{
+    color: rgb(219, 219, 219);
+}
